@@ -1,5 +1,5 @@
 const arr = [ ]
-arr.push("smita")
+arr.push("smita")       //push method adds elements form the end  (right side)
 arr.push("pooja")
 console.log(arr)
 arr.push("sakshi")
