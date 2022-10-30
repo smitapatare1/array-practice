@@ -1,3 +1,5 @@
+//splice() method is used to add elements and also delets the elemets.....
+
 //splice(P1,P2,P3)
 //P1==> index
 //P2==>no. of elements to delete
