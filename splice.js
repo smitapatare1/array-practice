@@ -23,3 +23,28 @@ console.log(array)
 //output
 //[ 'mouse', 'laptop', 'keyboard', 'USB', 'pen Drive' ]
 //[ 'mouse', 'laptop', 'pen Drive' ]
+
+
+//🛑 for Insertion
+//ex.1
+const arr2 = ["mouse","laptop","keyboard","USB","pen Drive"]
+console.log(arr2)
+arr2.splice(2,2,"monitor","mouse pad");                                                 //start from 2nd index, 2 elements are delete and 2 ele.(Monitor,MousePad)
+console.log(arr2)
+
+//output
+//[ 'mouse', 'laptop', 'keyboard', 'USB', 'pen Drive' ]
+//[ 'mouse', 'laptop', 'monitor', 'mouse pad', 'pen Drive' ]
+
+
+
+//ex.2
+const arr3 = ["mouse","laptop","keyboard","USB","pen Drive"]
+console.log(arr3)
+arr3.splice(2,0,"monitor","mouse pad");                                                 //we can  also add elements without deletion of elements..
+console.log(arr3)
+
+
+//output
+//[ 'mouse', 'laptop', 'keyboard', 'USB', 'pen Drive' ]
+//[  'mouse',  'laptop', 'monitor', 'mouse pad',  'keyboard', 'USB', 'pen Drive']
